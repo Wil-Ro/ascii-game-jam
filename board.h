@@ -1,3 +1,6 @@
+#ifndef _BOARD_H
+#define _BOARD_H
+
 #include <stdio.h>
 
 #define BOARD_DIMENTIONS 100 // this value represents board dimentions e.g. 100x100, its always a square so its just one value
@@ -23,3 +26,5 @@ char get_char_for_tile(enum tile);
 void print_board(board b);
 
 void create_boarders(board b);
+
+#endif // _BOARD_H
